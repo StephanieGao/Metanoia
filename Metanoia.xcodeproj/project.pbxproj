@@ -13,6 +13,8 @@
 		18C413AC24BF9AED00ACED96 /* output-onlinepngtools-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413AB24BF9AED00ACED96 /* output-onlinepngtools-2.png */; };
 		18C413AE24BF9C4500ACED96 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413AD24BF9C4500ACED96 /* unnamed.png */; };
 		18C413B024BF9CA800ACED96 /* soul.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413AF24BF9CA700ACED96 /* soul.png */; };
+		18C413B224BFBC7300ACED96 /* GoalTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C413B124BFBC7300ACED96 /* GoalTableTableViewController.swift */; };
+		18C413B424BFBD0900ACED96 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C413B324BFBD0900ACED96 /* Goals.swift */; };
 		A76F813A24BE50D600C96BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813924BE50D600C96BD2 /* AppDelegate.swift */; };
 		A76F813C24BE50D600C96BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */; };
 		A76F813E24BE50D600C96BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813D24BE50D600C96BD2 /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 		18C413AB24BF9AED00ACED96 /* output-onlinepngtools-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "output-onlinepngtools-2.png"; path = "../../../Desktop/output-onlinepngtools-2.png"; sourceTree = "<group>"; };
 		18C413AD24BF9C4500ACED96 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed.png; path = ../../../Desktop/unnamed.png; sourceTree = "<group>"; };
 		18C413AF24BF9CA700ACED96 /* soul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soul.png; path = ../../../Desktop/soul.png; sourceTree = "<group>"; };
+		18C413B124BFBC7300ACED96 /* GoalTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableTableViewController.swift; sourceTree = "<group>"; };
+		18C413B324BFBD0900ACED96 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
 		A76F813624BE50D600C96BD2 /* Metanoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metanoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76F813924BE50D600C96BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				A76F814724BE50D800C96BD2 /* LaunchScreen.storyboard */,
 				A76F814A24BE50D800C96BD2 /* Info.plist */,
 				A76F814224BE50D600C96BD2 /* Metanoia.xcdatamodeld */,
+				18C413B124BFBC7300ACED96 /* GoalTableTableViewController.swift */,
+				18C413B324BFBD0900ACED96 /* Goals.swift */,
 			);
 			path = Metanoia;
 			sourceTree = "<group>";
@@ -290,8 +296,10 @@
 			files = (
 				A76F813E24BE50D600C96BD2 /* ViewController.swift in Sources */,
 				A76F813A24BE50D600C96BD2 /* AppDelegate.swift in Sources */,
+				18C413B424BFBD0900ACED96 /* Goals.swift in Sources */,
 				A76F813C24BE50D600C96BD2 /* SceneDelegate.swift in Sources */,
 				A76F814424BE50D600C96BD2 /* Metanoia.xcdatamodeld in Sources */,
+				18C413B224BFBC7300ACED96 /* GoalTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

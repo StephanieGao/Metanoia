@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func mindButton(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,4 +19,3 @@ class ViewController: UIViewController {
 //comment
 
 }
-//I don't undertand what's happening 

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		18C4139F24BF88F800ACED96 /* output-onlinepngtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C4139E24BF88F700ACED96 /* output-onlinepngtools.png */; };
+		18C413A224BF93C900ACED96 /* 121-1210869_dumbbell-cartoon-weights-png-transparent-png.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413A124BF93C900ACED96 /* 121-1210869_dumbbell-cartoon-weights-png-transparent-png.png */; };
+		18C413A624BF99B200ACED96 /* brain-png-brain-icon-png-image-2536-942.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413A524BF99B200ACED96 /* brain-png-brain-icon-png-image-2536-942.png */; };
+		18C413AC24BF9AED00ACED96 /* output-onlinepngtools-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413AB24BF9AED00ACED96 /* output-onlinepngtools-2.png */; };
+		18C413AE24BF9C4500ACED96 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413AD24BF9C4500ACED96 /* unnamed.png */; };
+		18C413B024BF9CA800ACED96 /* soul.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C413AF24BF9CA700ACED96 /* soul.png */; };
 		A76F813A24BE50D600C96BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813924BE50D600C96BD2 /* AppDelegate.swift */; };
 		A76F813C24BE50D600C96BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */; };
 		A76F813E24BE50D600C96BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813D24BE50D600C96BD2 /* ViewController.swift */; };
@@ -38,6 +43,12 @@
 
 /* Begin PBXFileReference section */
 		18C4139E24BF88F700ACED96 /* output-onlinepngtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "output-onlinepngtools.png"; path = "../../Downloads/output-onlinepngtools.png"; sourceTree = "<group>"; };
+		18C413A024BF93BD00ACED96 /* output-onlinepngtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinepngtools.png"; sourceTree = "<group>"; };
+		18C413A124BF93C900ACED96 /* 121-1210869_dumbbell-cartoon-weights-png-transparent-png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "121-1210869_dumbbell-cartoon-weights-png-transparent-png.png"; path = "../../../Desktop/121-1210869_dumbbell-cartoon-weights-png-transparent-png.png"; sourceTree = "<group>"; };
+		18C413A524BF99B200ACED96 /* brain-png-brain-icon-png-image-2536-942.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "brain-png-brain-icon-png-image-2536-942.png"; path = "../../../Desktop/brain-png-brain-icon-png-image-2536-942.png"; sourceTree = "<group>"; };
+		18C413AB24BF9AED00ACED96 /* output-onlinepngtools-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "output-onlinepngtools-2.png"; path = "../../../Desktop/output-onlinepngtools-2.png"; sourceTree = "<group>"; };
+		18C413AD24BF9C4500ACED96 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed.png; path = ../../../Desktop/unnamed.png; sourceTree = "<group>"; };
+		18C413AF24BF9CA700ACED96 /* soul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soul.png; path = ../../../Desktop/soul.png; sourceTree = "<group>"; };
 		A76F813624BE50D600C96BD2 /* Metanoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metanoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76F813924BE50D600C96BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +115,12 @@
 		A76F813824BE50D600C96BD2 /* Metanoia */ = {
 			isa = PBXGroup;
 			children = (
+				18C413A024BF93BD00ACED96 /* output-onlinepngtools.png */,
+				18C413AD24BF9C4500ACED96 /* unnamed.png */,
+				18C413A524BF99B200ACED96 /* brain-png-brain-icon-png-image-2536-942.png */,
+				18C413AF24BF9CA700ACED96 /* soul.png */,
+				18C413AB24BF9AED00ACED96 /* output-onlinepngtools-2.png */,
+				18C413A124BF93C900ACED96 /* 121-1210869_dumbbell-cartoon-weights-png-transparent-png.png */,
 				A76F813924BE50D600C96BD2 /* AppDelegate.swift */,
 				A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */,
 				A76F813D24BE50D600C96BD2 /* ViewController.swift */,
@@ -238,10 +255,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C413A224BF93C900ACED96 /* 121-1210869_dumbbell-cartoon-weights-png-transparent-png.png in Resources */,
 				A76F814924BE50D800C96BD2 /* LaunchScreen.storyboard in Resources */,
+				18C413B024BF9CA800ACED96 /* soul.png in Resources */,
 				18C4139F24BF88F800ACED96 /* output-onlinepngtools.png in Resources */,
 				A76F814624BE50D800C96BD2 /* Assets.xcassets in Resources */,
 				A76F814124BE50D600C96BD2 /* Main.storyboard in Resources */,
+				18C413AC24BF9AED00ACED96 /* output-onlinepngtools-2.png in Resources */,
+				18C413AE24BF9C4500ACED96 /* unnamed.png in Resources */,
+				18C413A624BF99B200ACED96 /* brain-png-brain-icon-png-image-2536-942.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

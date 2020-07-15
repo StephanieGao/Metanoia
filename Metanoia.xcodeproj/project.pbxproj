@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C4139F24BF88F800ACED96 /* output-onlinepngtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C4139E24BF88F700ACED96 /* output-onlinepngtools.png */; };
 		A76F813A24BE50D600C96BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813924BE50D600C96BD2 /* AppDelegate.swift */; };
 		A76F813C24BE50D600C96BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */; };
 		A76F813E24BE50D600C96BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F813D24BE50D600C96BD2 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C4139E24BF88F700ACED96 /* output-onlinepngtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "output-onlinepngtools.png"; path = "../../Downloads/output-onlinepngtools.png"; sourceTree = "<group>"; };
 		A76F813624BE50D600C96BD2 /* Metanoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metanoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76F813924BE50D600C96BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76F813B24BE50D600C96BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				A76F815224BE50D900C96BD2 /* MetanoiaTests */,
 				A76F815D24BE50D900C96BD2 /* MetanoiaUITests */,
 				A76F813724BE50D600C96BD2 /* Products */,
+				18C4139E24BF88F700ACED96 /* output-onlinepngtools.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A76F814924BE50D800C96BD2 /* LaunchScreen.storyboard in Resources */,
+				18C4139F24BF88F800ACED96 /* output-onlinepngtools.png in Resources */,
 				A76F814624BE50D800C96BD2 /* Assets.xcassets in Resources */,
 				A76F814124BE50D600C96BD2 /* Main.storyboard in Resources */,
 			);

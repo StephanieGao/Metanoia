@@ -35,6 +35,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="bodyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="taq-9q-Ot9"/>
                                     <segue destination="pfn-wx-i72" kind="show" id="5AN-qC-2dm"/>
                                 </connections>
                             </button>
@@ -48,6 +49,8 @@
                                 </state>
                                 <connections>
                                     <action selector="mindButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hrd-9n-mba"/>
+                                    <action selector="mindTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zSD-AU-b2Y"/>
+                                    <action selector="mindTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHp-ha-fgL"/>
                                     <segue destination="reh-nQ-jXp" kind="show" id="uMD-gE-EUv"/>
                                 </connections>
                             </button>
@@ -68,7 +71,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="22N-9F-Pf8" kind="show" id="kQ1-F8-Laq"/>
+                                    <action selector="soulTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fB8-7o-ani"/>
+                                    <segue destination="22N-9F-Pf8" kind="showDetail" id="kQ1-F8-Laq"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soul.png" translatesAutoresizingMaskIntoConstraints="NO" id="oKC-yO-y4T">
@@ -87,6 +91,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="E66-FH-3tp"/>
+                    <connections>
+                        <outlet property="bodyTap" destination="Sd9-1v-eAE" id="Iom-En-0tw"/>
+                        <outlet property="mindTap" destination="Jpa-YB-IY4" id="odu-0U-fFk"/>
+                        <outlet property="soulTap" destination="uFF-Ab-exT" id="PGA-5m-ZCQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -119,6 +128,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="bodyTapped:" destination="lXM-GG-7kb" eventType="touchUpInside" id="qEF-yx-oSE"/>
                                     <segue destination="pfn-wx-i72" kind="show" id="LKq-2s-5pz"/>
                                 </connections>
                             </button>
@@ -151,6 +161,7 @@
                     <navigationItem key="navigationItem" id="nwM-YE-uzZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PsN-G4-k1v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="lXM-GG-7kb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
         </scene>
@@ -159,7 +170,7 @@
             <objects>
                 <tableViewController id="INA-gz-wxJ" customClass="GoalTableTableViewController" customModule="Metanoia" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EHA-hR-5CW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -178,7 +189,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Goal List" id="fzf-pD-Tjl">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="vtM-I2-To8"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="vtM-I2-To8">
+                            <connections>
+                                <segue destination="yqx-7r-WeZ" kind="show" id="OUp-2d-6wq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JYT-ig-rzj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -190,7 +205,7 @@
             <objects>
                 <viewController id="yqx-7r-WeZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pjC-LN-ajA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you feeling?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bza-qc-mGD">
@@ -243,6 +258,7 @@
                         <color key="backgroundColor" red="0.89249879119999997" green="0.85765367749999999" blue="0.81093275549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="A8S-Jd-Qxa"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eLj-se-FN6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iEM-6h-F6W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -303,7 +319,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="XHX-nf-FOq"/>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="XHX-nf-FOq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gu-D4-h8c">
@@ -388,6 +404,7 @@
                         <color key="backgroundColor" red="0.88915473219999996" green="0.85768681759999998" blue="0.81455832719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Iot-KG-dUA"/>
                     </view>
+                    <navigationItem key="navigationItem" id="rX9-Kp-9w3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IfS-Iq-5ST" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -518,10 +535,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="5AN-qC-2dm"/>
+        <segue reference="IKg-f1-nmS"/>
         <segue reference="kQ1-F8-Laq"/>
-        <segue reference="6xk-RB-srt"/>
-        <segue reference="uMD-gE-EUv"/>
+        <segue reference="mao-eC-z4j"/>
+        <segue reference="po6-T6-1S5"/>
         <segue reference="XHX-nf-FOq"/>
     </inferredMetricsTieBreakers>
     <resources>

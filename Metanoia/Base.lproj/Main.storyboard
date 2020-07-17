@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cr3-mH-rKd">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,100 +7,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Metanoia" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools.png" translatesAutoresizingMaskIntoConstraints="NO" id="YDC-Ho-SE8">
-                                <rect key="frame" x="-85" y="-46" width="585" height="337"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_METANOIA_" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RO8-Qj-Uhm">
-                                <rect key="frame" x="29" y="204" width="356" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sd9-1v-eAE">
-                                <rect key="frame" x="-10" y="346" width="264" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.34901960784313724" green="0.43137254901960786" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
-                                <state key="normal" title="Body  ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="bodyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="taq-9q-Ot9"/>
-                                    <segue destination="pfn-wx-i72" kind="show" id="5AN-qC-2dm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpa-YB-IY4">
-                                <rect key="frame" x="177" y="486" width="293" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.34901960784313724" green="0.43137254901960786" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
-                                <state key="normal" title=" Mind">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="mindButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hrd-9n-mba"/>
-                                    <action selector="mindTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zSD-AU-b2Y"/>
-                                    <action selector="mindTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHp-ha-fgL"/>
-                                    <segue destination="reh-nQ-jXp" kind="show" id="uMD-gE-EUv"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain-png-brain-icon-png-image-2536-942.png" translatesAutoresizingMaskIntoConstraints="NO" id="OYm-BS-ug7">
-                                <rect key="frame" x="186" y="489" width="85" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="oMO-pd-EtX">
-                                <rect key="frame" x="137" y="346" width="134" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFF-Ab-exT">
-                                <rect key="frame" x="-46" y="627" width="300" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
-                                <state key="normal" title="Soul">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="soulTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fB8-7o-ani"/>
-                                    <segue destination="22N-9F-Pf8" kind="showDetail" id="kQ1-F8-Laq"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soul.png" translatesAutoresizingMaskIntoConstraints="NO" id="oKC-yO-y4T">
-                                <rect key="frame" x="114" y="627" width="157" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What would you like to work on?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7EZ-lH-1u8">
-                                <rect key="frame" x="55" y="757" width="304" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.87450980392156863" green="0.82745098039215681" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="E66-FH-3tp"/>
-                    <connections>
-                        <outlet property="bodyTap" destination="Sd9-1v-eAE" id="Iom-En-0tw"/>
-                        <outlet property="mindTap" destination="Jpa-YB-IY4" id="odu-0U-fFk"/>
-                        <outlet property="soulTap" destination="uFF-Ab-exT" id="PGA-5m-ZCQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1378" y="-94"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="62k-Ku-Y7P">
             <objects>
@@ -140,7 +46,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="lZB-yS-vyG"/>
+                                    <segue destination="cr3-mH-rKd" kind="show" id="da6-C1-XDQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEY-TI-6Td">
@@ -227,22 +133,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6fa-We-ItL">
-                                <rect key="frame" x="43" y="365" width="328" height="411"/>
+                                <rect key="frame" x="43" y="365" width="317" height="351"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irl-8L-ALu">
-                                <rect key="frame" x="148" y="797" width="119" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75663179160000005" green="0.67526370290000004" blue="0.54689365629999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bIm-bt-VpB">
                                 <rect key="frame" x="75" y="210" width="265" height="105"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -254,6 +151,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irl-8L-ALu">
+                                <rect key="frame" x="148" y="746" width="119" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.75663179160000005" green="0.67526370290000004" blue="0.54689365629999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.89249879119999997" green="0.85765367749999999" blue="0.81093275549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="A8S-Jd-Qxa"/>
@@ -319,7 +225,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="XHX-nf-FOq"/>
+                                    <segue destination="cr3-mH-rKd" kind="show" id="yXr-r2-d8k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gu-D4-h8c">
@@ -333,19 +239,10 @@
                                     <segue destination="reh-nQ-jXp" kind="show" id="po6-T6-1S5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swX-8N-gMo">
-                                <rect key="frame" x="35" y="368" width="345" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75663179160000005" green="0.67526370290000004" blue="0.54689365629999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
-                                <state key="normal" title="Find a Therapist">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPy-fx-zZP">
-                                <rect key="frame" x="52" y="548" width="311" height="86"/>
+                                <rect key="frame" x="52" y="322" width="311" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75663179160000005" green="0.67526370290000004" blue="0.54689365629999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
                                 <state key="normal" title="Tips and Tricks">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -357,13 +254,25 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVQ-Au-v2I">
                                 <rect key="frame" x="119" y="211" width="176" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.77030808058356159" green="0.67700299256849317" blue="0.53840493015753421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
                                 <state key="normal" title="Journal">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="INA-gz-wxJ" kind="show" id="mao-eC-z4j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swX-8N-gMo">
+                                <rect key="frame" x="35" y="451" width="345" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
+                                <state key="normal" title="Find a Therapist">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Axe-rB-4bN" kind="show" id="Mma-yx-nrT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -384,22 +293,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnG-Dl-Bqd">
-                                <rect key="frame" x="92" y="302" width="230" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75663179160000005" green="0.67526370290000004" blue="0.54689365629999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="37"/>
-                                <state key="normal" title="Click me!">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips and tricks!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLI-3Y-iTM">
-                                <rect key="frame" x="102" y="228" width="210" height="38"/>
+                                <rect key="frame" x="48" y="35" width="346" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnG-Dl-Bqd">
+                                <rect key="frame" x="20" y="708" width="230" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <state key="normal" title="&lt;-- Prevoius Page">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="22N-9F-Pf8" kind="show" id="d8O-Sx-vJx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88915473219999996" green="0.85768681759999998" blue="0.81455832719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Iot-KG-dUA"/>
@@ -415,10 +327,10 @@
             <objects>
                 <viewController id="Axe-rB-4bN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NaH-uS-ajK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N2i-IS-Ff8">
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="N2i-IS-Ff8">
                                 <rect key="frame" x="42" y="328" width="331" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -437,11 +349,23 @@
                                     <segue destination="hEG-ig-QDG" kind="show" id="qaZ-TN-bDb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0V-V6-tHI">
+                                <rect key="frame" x="20" y="751" width="197" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <state key="normal" title="&lt;-- Prevoius Page">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="22N-9F-Pf8" kind="show" id="nEX-Ck-CVT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.89249879119999997" green="0.85765367749999999" blue="0.81093275549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="DIo-mh-cNM"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Yqa-Yt-jqY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W4h-5E-xqm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -520,7 +444,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="55n-Fi-JMP"/>
+                                    <segue destination="cr3-mH-rKd" kind="show" id="MwG-Cg-K6D"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -533,13 +457,97 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="-556.47321428571422"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xbu-zI-nbI">
+            <objects>
+                <viewController id="cr3-mH-rKd" customClass="ViewController" customModule="Metanoia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hYy-yg-Zx8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7B-qh-ekF">
+                                <rect key="frame" x="0.0" y="292" width="241" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
+                                <state key="normal" title="Body">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pfn-wx-i72" kind="show" id="so0-e0-3Pg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ad4-YB-Mdy">
+                                <rect key="frame" x="159" y="472" width="255" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
+                                <state key="normal" title="Mind">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="reh-nQ-jXp" kind="show" id="V6h-Vt-yut"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-vV-dde">
+                                <rect key="frame" x="0.0" y="644" width="241" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.43137254899999999" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
+                                <state key="normal" title="Soul">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="22N-9F-Pf8" kind="show" id="sZm-Yi-Dov"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmB-c1-QKl">
+                                <rect key="frame" x="24" y="-27" width="367" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_METANOIA_" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hu-Kl-6ji">
+                                <rect key="frame" x="48" y="186" width="319" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="1ky-Hm-6wo">
+                                <rect key="frame" x="242" y="283" width="149" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain-png-brain-icon-png-image-2536-942.png" translatesAutoresizingMaskIntoConstraints="NO" id="lmB-MF-4vy">
+                                <rect key="frame" x="17" y="461" width="134" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What would you like to work on today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NI-H0-KcH">
+                                <rect key="frame" x="-8" y="777" width="460" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soul.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Th-RH-xMw">
+                                <rect key="frame" x="249" y="609" width="155" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87450980389999999" green="0.82745098039999998" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="E0F-pA-ttt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MMK-p6-p7n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hO8-Yx-tNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839.13043478260875" y="26.785714285714285"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="yXr-r2-d8k"/>
         <segue reference="IKg-f1-nmS"/>
-        <segue reference="kQ1-F8-Laq"/>
+        <segue reference="nEX-Ck-CVT"/>
         <segue reference="mao-eC-z4j"/>
         <segue reference="po6-T6-1S5"/>
-        <segue reference="XHX-nf-FOq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="brain-png-brain-icon-png-image-2536-942.png" width="942" height="808"/>

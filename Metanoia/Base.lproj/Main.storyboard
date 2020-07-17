@@ -467,7 +467,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="reh-nQ-jXp" kind="showDetail" id="LFz-Kx-WJZ"/>
+                                    <segue destination="reh-nQ-jXp" kind="show" id="BaJ-BS-aPT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1148,7 +1148,7 @@ Calgary, Alberta T3H
         <segue reference="LKq-2s-5pz"/>
         <segue reference="JPs-hY-zVl"/>
         <segue reference="pWF-pe-Nbm"/>
-        <segue reference="LFz-Kx-WJZ"/>
+        <segue reference="BaJ-BS-aPT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="14179-200" width="200" height="200"/>
